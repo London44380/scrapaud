@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Configuration personnelle (le modèle config.example.toml, lui, est versionné)
+config.toml
+.env
+*.env
+
+# Sorties générées par l'outil
+wordlists/
+pastes/
+*.bak
+.cache/

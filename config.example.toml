@@ -1,0 +1,26 @@
+# Exemple de configuration de scrapaud.
+# Pour l'activer :  cp ~/.config/scrapaud/config.example.toml ~/.config/scrapaud/config.toml
+# (ce fichier .example n'est JAMAIS lu). Les clés sont les noms d'options sans « -- ».
+# La ligne de commande prime toujours. `scrapaud --doctor` signale les clés inconnues.
+
+# --- recherche -------------------------------------------------------------
+# searx = "http://127.0.0.1:8888"     # déjà détecté automatiquement s'il tourne
+lang  = "fr"
+limit = 30
+
+# --- réseau : politesse et robustesse --------------------------------------
+delay   = 0.5          # pause minimale PAR SITE (secondes)
+threads = 5
+timeout = 15
+retries = 2
+
+# --- résultats -------------------------------------------------------------
+# not-domain = ["pinterest.", "facebook.com"]   # exclure ces hôtes des résultats et liens
+
+# --- wordlists ---------------------------------------------------------------
+# wl-stopwords = "fr,en"
+# wl-lower     = true
+# wl-min       = 4
+
+# --- cache -------------------------------------------------------------------
+cache-ttl = 3600       # secondes ; 0 = désactivé
