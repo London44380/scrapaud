@@ -140,4 +140,4 @@ python3 -m unittest test_scrapaud        # ≈ 1 minute, hors ligne
 
 ## Licence
 
-Aucune licence n'est définie pour l'instant : tous droits réservés par défaut.
+[MIT](LICENSE).
