@@ -15,6 +15,8 @@
 - Un seul script (`scrapaud.py`), ses tests (`test_scrapaud.py`), un modèle de configuration
 - Conçu pour des **données publiques** : voir [Usage responsable](#usage-responsable)
 
+![Démonstration : une recherche, puis une extraction des titres d'une page](docs/demo.gif)
+
 ---
 
 ## Ce que ça fait
